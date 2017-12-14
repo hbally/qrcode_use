@@ -2,12 +2,14 @@
 
 1. 使用qrcode
 
+  ```
   qrcode 依赖PIL
        python3安装PIL：pip install PIL
        python2安装PIL：pip install pillow
-
+  ```
 2. base64
 
+   ```
    import cStringIO
    import base64
     # 依赖StringIO容器装载二维码
@@ -16,6 +18,7 @@
     imgStr = base64.b64encode(jpeg_image_buffer.getvalue())
 
     qrcode 生成的二维码sava输出到stringIO中
+    ```
 
 3. base64解析
 
