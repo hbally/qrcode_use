@@ -24,7 +24,7 @@
 
    base64 的图片 在网页中解析：
 
-       ```
+   ```
         <img src="data:image/jpg;base64,base64编码图片后的sting"/>
-       ```
+   ```
 
